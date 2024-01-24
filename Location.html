@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location website</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=IBM Plex Mono' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navigation_button">
+            <a href="#section_info"><button href="" class='nav_button 1'> current weather</button></a>
+            <a href='#section_getlocation'><button class='nav_button 3'> world weather </button></a>
+            <a href='#section_about'><button class='nav_button 2'> faq </button></a>
+            <a href='#section_feedback'><button class='nav_button 4'> your feedback </button></a>
+        </nav>
+    </header>
+    <main>
+        <div class="div section_info">
+            <div class="header-info">
+                current weather
+            </div>
+           <div class="section-info-wrapper">
+                <div class="section_info-text">
+                    Page-Loaded <span class="section_info-span">Real-Time Weather</span> Updates for Your Location
+                </div>
+                <div class="current-forecast">
+                    <div class="contener-city">
+                        <div class="param city-weather now"></div> <br>
+                        <div class="param land-weather now"></div>
+                    </div>
+                    <div class="label today"></div>
+                    <div class="param degree-weather now"></div>
+                    <div class="param type now"></div>
+                    <div class="weather-description">
+                        <div class="contener">
+                            <label class="label">wind</label>
+                            <div class="param cloud-weather now"></div>
+                        </div>
+                        <div class="contener">
+                            <label class="label">humidity</label>
+                            <div class="param humidity now"></div>
+                        </div>
+                        <div class="contener">
+                            <label class="label">pressure</label>
+                            <div class="param pressure now"></div>
+                        </div>
+                    </div>
+                    <div class="wrapper-3-contener">
+                        <div class="wrapper-3 predict weather">
+                            <label class="label tomorrow"></label>
+                            <div class="future-param tomorrow temp"></div>
+                            <div class="future-param tomorrow condition"></div>
+                        </div>
+                        <div class="wrapper-3 predict weather">
+                            <label class="label after-tomorrow"></label>
+                            <div class="future-param after-tomorrow temp"></div>
+                            <div class="future-param after-tomorrow condition"></div>
+                        </div>
+                        <div class="wrapper-3 predict weather">
+                            <label class="label after-after-tomorrow"></label>
+                            <div class="future-param after-after-tomorrow temp"></div>
+                            <div class="future-param after-after-tomorrow condition"></div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="section-abstract">
+            <div class="section_abstract-contener">
+                <img class='vector 2' src="./img/Vector 34.png" alt="">
+                <img class='vector 1' src="./img/Vector 35.png" alt="">
+            </div>
+
+        </div>
+        <div class="div section_getlocation">
+            <section id='section_getlocation' class="section_getlocation">
+                <div class="header-world-weather">
+                    world weather
+                </div>
+                <div class="wraraper world-weather">
+                    <div class="city-forecast city">
+                        <div class="param city-weather oslo"></div>
+                        <div class="param degree-weather oslo"></div>
+                        <div class="param cloud-weather oslo"></div>
+                        <label class="label">wind</label>
+                        <div class="param wind oslo"></div>
+                        <label class="label">humidity</label>
+                        <div class="param humidity oslo"></div>
+                        <label class="label">pressure</label>
+                        <div class="param pressure oslo"></div>
+                    </div>
+                    <div class="city-forecast city">
+                        <div class="param city-weather paris"></div>
+                        <div class="param degree-weather paris"></div>
+                        <div class="param cloud-weather paris"></div>
+                        <label class="label">wind</label>
+                        <div class="param wind paris"></div>
+                        <label class="label">humidity</label>
+                        <div class="param humidity paris"></div>
+                        <label class="label">pressure</label>
+                        <div class="param pressure paris"></div>    
+                    </div>
+                    <div class="city-forecast city">
+                        <div class="param city-weather london"></div>
+                        <div class="param degree-weather london"></div>
+                        <div class="param cloud-weather london"></div>
+                        <label class="label">wind</label>
+                        <div class="param wind london"></div>
+                        <label class="label">humidity</label>
+                        <div class="param humidity london"></div>
+                        <label class="label">pressure</label>
+                        <div class="param pressure london"></div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <div class="section-about-wrapper">
+            <div class="section-about picture">
+                <div class="section_about-contener">
+                    <img class='img winter' src="./img/winter.jpg" alt="">
+                    <div class="overlay">
+                        <h2>winter</h2>
+                      </div>
+                </div>
+                <div class="section_about-contener">
+                    <img class='img fjell' src="./img/fjell.jpg" alt="">
+                    <div class="overlay">
+                        <h2>spring</h2>
+                      </div>
+                </div>
+                <div class="section_about-contener">
+                    <img class='img summer' src="./img/summer.jpg" alt="">
+                    <div class="overlay">
+                        <h2>summer</h2>
+                      </div>
+                </div>
+                <div class="section_about-contener">
+                    <img class='img fall' src="./img/fall.png" alt="">
+                    <div class="overlay">
+                        <h2>fall</h2>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="section_about-wrapper">
+            <section id='section_about' class="section_about">
+                <div class="header-about">
+                    FAQ
+                </div>
+                <div class="qa wrapper">
+                    <div class="s5-box one">
+                        <div class="s5-box title one">
+                            <div>
+                                Who am I?
+                            </div>
+                            <button class="s5-btn" data-target="#toggle-1">
+                            </button>
+                        </div>
+                        <div id="toggle-1" class="s5-toggle">
+                            <div class="s5-toggle-text">
+                                I am a dedicated professional with a solid two-year background as a system analyst. Eager to propel my career forward in the realm of web development, my enthusiasm is rooted in crafting captivating and responsive websites. My ambition is to evolve into a skilled front-end developer in the coming years.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s5-box two">
+                        <div class="s5-box title two">
+                            <div>
+                                About project?
+                            </div>
+                            <button class="s5-btn" data-target="#toggle-2">
+                            </button>
+                        </div>
+                        <div id="toggle-2" class="s5-toggle">
+                            <div class="s5-toggle-text">
+                                Creating a weather website serves as an ideal OET (Online Education Task) project for students, offering an immersive experience in web development. This project entails the design and development of a user-friendly website, empowering users to effortlessly access real-time weather conditions and forecasts for any location worldwide.
+
+                                Built with HTML, CSS, and JavaScript, the website leverages APIs to seamlessly retrieve weather data. The interface is designed for simplicity, featuring a user-friendly search bar and displaying key weather metrics such as current temperature, humidity, and wind speed. The site is not only aesthetically pleasing, with customizable styling using CSS, but also responsive, ensuring optimal performance across various devices.
+                                
+                                Embarking on this project contributes significantly to the enhancement of web development skills, providing students with a practical avenue to apply their knowledge. Moreover, the end result is a valuable and user-friendly tool for individuals seeking accurate and up-to-date weather information.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s5-box three">
+                        <div class="s5-box title three">
+                            <div>
+                                How does OpenWeatherMap work?
+                            </div>
+                            <button class="s5-btn" data-target="#toggle-3">
+                            </button>
+                        </div>
+                        <div id="toggle-3" class="s5-toggle">
+                            <div class="s5-toggle-text">
+                                The OpenWeatherMap API retrieves real-time weather data from various sources worldwide. We chose it for its reliability and extensive coverage, allowing us to provide accurate and up-to-date weather information for our users.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+    
+            </section>
+        </div>
+
+        <div class="section-abstract">
+            <div class="section_abstract-contener two">
+                <img class='vector 2'  src="./img/Vector-1.png" alt="">
+                <img class='vector 2'  src="./img/Vector-2.png" alt="">
+                <img class='vector 2'  src="./img/Vector-4.png" alt="">
+                <img class='vector 2'  src="./img/Vector-5.png" alt="">
+            </div>
+
+        </div>
+
+        <section id='section_feedback' class="section_feedback">
+            <div class="header-feedback">
+                feedback
+            </div>
+            <form action="#" method="POST">
+                <h2>send your feedback</h2>
+                <div class="form-group">
+                  <label for="name">name:</label>
+                  <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">email:</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">message:</label>
+                  <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">send</button>
+              </form>
+        </section>
+        <section class="info-contact">
+            <div class="info-text">
+                    Thank you for reviewing my website. 
+                    Please feel free to contact me with any questions or 
+                    suggestions you may have. I appreciate your feedback and 
+                    am dedicated to enhancing the website's quality.
+            </div>
+            <div class="info-img">
+                <img src="./img/footer.png" alt="">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer header-contact">Contact Information</div>
+        <div class="footer-text">For any inquiries or assistance, please don't hesitate to reach out to me.</div>
+        <div class="footer">
+            <div class="footer-contacts">
+                <a href="https://www.linkedin.com/in/anastasia-grigoryeva-216462236/">
+                 <img src="./img/linked.svg" alt="LinkedIn Icon" width="30" height="30">
+                </a>
+            </div>
+            <div class="footer-contacts">
+                <a href="mailto:anastasia.grigoryeva.ca@gmail.com">
+                    <img src="./img/email.svg" alt="LinkedIn Icon" width="30" height="30">
+                </a>
+            </div>
+            <div  class="footer-contacts">
+                <a href="https://t.me/ana_grigoryeva">
+                    <img src="./img/tg.svg" alt="LinkedIn Icon" width="30" height="30">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="./js.js"></script>
+</body>
+</html>
