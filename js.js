@@ -1,4 +1,4 @@
-const apiKey = '6fa27a974ef00b1354fcc815c71ba423';
+const apiKey = ${{ secrets.YOUR_SECRET_NAME }};
 const cities = ['Oslo', 'Paris', 'London']
 
 function getFormattedDate(date) {
